@@ -690,3 +690,8 @@ input[type="checkbox"]:checked {
   }
 
 }
+
+.agent-select {
+  border: none;
+  outline: none;
+}
