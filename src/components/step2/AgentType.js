@@ -12,9 +12,10 @@ export default function AgentType() {
                         <label htmlFor="type-agent">Type of Agent:</label>
                         <select id="type-agent" className='rounded p-2 mt-3 mb-5 w-100 credit-card-input formgray-text'>
                             <option>Select</option>
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
+                            <option>Broker</option>
+                            <option>Agent</option>
+                            <option>Wholesaler</option>
+                            <option>Other</option>
                         </select>
                     </div>
                     <div className="col-lg-10 mx-auto col-12  px-0 formgray-text text-center">
@@ -27,18 +28,22 @@ export default function AgentType() {
                         <label htmlFor="volume">Average Transaction volume (yearly):</label>
                         <select id='volume' className='rounded p-2 mt-3 mb-5 w-100 credit-card-input formgray-text'>
                             <option>Select</option>
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
+                            <option>0-1 Million</option>
+                            <option>1-5 Million</option>
+                            <option>5-25 Million</option>
+                            <option>+25 Million</option>
                         </select>
                     </div>
                     <div className="text-start col-md-6 px-md-4 px-0 formgray-text">
                         <label htmlFor="experience">Number of years of experience:</label>
                         <select id="experience" className='rounded p-2 mt-3 mb-5 w-100 credit-card-input formgray-text'>
                             <option>Select</option>
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
+                            <option>Less than 1 year</option>
+                            <option>1-3 Years</option>
+                            <option>3-5 Years</option>
+                            <option>5-10 Years</option>
+                            <option>10+ Years</option>
+
                         </select>
                     </div>
                     <div className="text-start col-md-6 px-md-4 px-0 formgray-text">
