@@ -18,7 +18,7 @@ export default function Map() {
     return (
         <div className='conatiner-fluid'>
             <div className='row w-90 justify-content-md-between justify-content-around mx-auto rounded '>
-                <h3 className='fs-33 fw-bold text-center dark-blue-text z-2'>
+                <h3 className='fs-33 fw-bold text-center dark-blue-text z-2 mt-md-3'>
                     Choose Your Target States:
                 </h3>
                 <div className="row w-80 mx-auto text-white">
